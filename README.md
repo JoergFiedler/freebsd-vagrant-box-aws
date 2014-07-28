@@ -3,7 +3,7 @@
 The Vagrant box file can be used to create FreeBSD
 based EC2 machines.
 
-The requested AWS instance type is: m3.medium
+The requested AWS instance type is: *m3.medium*
 
 ### Requirements
 
