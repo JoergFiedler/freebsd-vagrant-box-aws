@@ -1,3 +1,3 @@
 #!/bin/sh
 
-tar -czf freebsd10.box -C src/ .
+tar -cf freebsd10.box -C src/ .

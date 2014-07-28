@@ -14,8 +14,7 @@ The requested AWS instance type is: *m3.medium*
 ### Usage
 
 The box format that AWS provider requires consists of
-exactly two files which are provided as a zipped tar
-archive.
+exactly two files which are provided as a tar archive.
 
 1. Vargrantfile
 2. metadata.json
