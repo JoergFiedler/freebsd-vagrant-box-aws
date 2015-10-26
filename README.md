@@ -3,35 +3,27 @@
 The Vagrant box file can be used to create FreeBSD
 based EC2 machines.
 
-The requested AWS instance type is: *m3.medium*
+Unless overriden vagrant will create instances in
+region "eu-west-1".
 
 ### Requirements
 
 * Vagrant
 * Vagrant AWS plugin
-* EC2 security group named `FreeBSD Default`
 
 ### Usage
 
-The box format that AWS provider requires consists of
-exactly two files which are provided as a tar archive.
+The box format that AWS provider consists of exactly two
+files which are provided as a tar archive.
 
 1. Vargrantfile
 2. metadata.json
 
 Please update the `freebsd10.box` file after the files
 mentioned above have been changed. In order to do so,
-run the `update.sh' command.
+run the `update.sh` command.
 
+### Links
 
-### EC2 Security Group
+1. [FreeBSD on EC2](http://www.daemonology.net/freebsd-on-ec2/)
 
-The security group referenced within `Vagrantfile` is
-used to define a set of default rules which open the
-following ports.
-
-1. TCP: port 22 (SSH)
-2. ICMP: echo requests
-
-The security group must exists before the box can be
-used.
