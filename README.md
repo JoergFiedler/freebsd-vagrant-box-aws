@@ -1,29 +1,31 @@
 ## FreeBSD 10 AWS Box
 
 The Vagrant box file can be used to create FreeBSD
-based EC2 machines.
+machines for `virtualbox` and `aws` providers.
 
-Unless overriden vagrant will create instances in
-region "eu-west-1".
+More informaiton about the box file for the `virtualbox`
+provider can be found [here](https://github.com/JoergFiedler/freebsd-vagrant-base-box).
+
+The box file the `aws` provider just contains definitions
+for FreeNSD AMI's for all aws regions. See [FreeBSD on EC2](http://www.daemonology.net/freebsd-on-ec2/) page for further information.
 
 ### Requirements
 
-* Vagrant
-* Vagrant AWS plugin
+* [Vagrant](https://www.vagrantup.com)
+* [Vagrant AWS plugin](https://github.com/mitchellh/vagrant-aws)
 
 ### Usage
 
-The box format that AWS provider consists of exactly two
-files which are provided as a tar archive.
+To use the this box definition just add it to the list of
+available boxes for your vagrant isntalltion.
 
-1. Vargrantfile
-2. metadata.json
+    vagrant box add https://cdn.rawgit.com/JoergFiedler/freebsd-box/master/metadata.json --provider={aws,virtualbox}
 
-Please update the `freebsd10.box` file after the files
-mentioned above have been changed. In order to do so,
-run the `update.sh` command.
+Use `JoergFiedler/freebsd-box` as name for the box file for both providers.
+
+    config.vm.box = 'JoergFiedler/freebsd-box'
 
 ### Links
 
 1. [FreeBSD on EC2](http://www.daemonology.net/freebsd-on-ec2/)
-
+1. [Vagrant](https://www.vagrantup.com)
