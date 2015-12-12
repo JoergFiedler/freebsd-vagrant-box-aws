@@ -1,0 +1,17 @@
+metadata.json000644 000765 000024 00000000030 12614370774 013636 0ustar00johnstaff000000 000000 {
+  "provider": "aws"
+}
+Vagrantfile000644 000765 000024 00000001256 12614370733 013356 0ustar00johnstaff000000 000000 Vagrant.configure("2") do |config|
+  config.vm.provider :aws do |aws, _|
+    aws.region_config "us-east-1", :ami => "ami-f709a29c"
+    aws.region_config "us-west-1", :ami => "ami-bbc43aff"
+    aws.region_config "eu-west-1", :ami => "ami-5c4c112b"
+    aws.region_config "ap-southeast-1", :ami => "ami-fe6c62ac"
+    aws.region_config "ap-northeast-1", :ami => "ami-94209b94"
+    aws.region_config "ap-northeast-1", :ami => "ami-94209b94"
+    aws.region_config "us-west-2", :ami => "ami-2b88821b"
+    aws.region_config "sa-east-1", :ami => "ami-49ef6754"
+    aws.region_config "ap-southeast-2", :ami => "ami-1bc28121"
+    aws.region_config "eu-central-1", :ami => "ami-2235323f"
+  end
+end
