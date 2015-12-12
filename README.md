@@ -21,7 +21,7 @@ available boxes for your vagrant isntalltion.
 
     for provider in aws virtualbox; do \
       vagrant box add \
-        https://cdn.rawgit.com/JoergFiedler/freebsd-box/master/metadata.json \
+        https://rawgit.com/JoergFiedler/freebsd-box/master/metadata.json \
         --provider ${provider}; \
     done
 
