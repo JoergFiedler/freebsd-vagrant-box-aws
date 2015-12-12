@@ -19,7 +19,11 @@ for FreeNSD AMI's for all aws regions. See [FreeBSD on EC2](http://www.daemonolo
 To use the this box definition just add it to the list of
 available boxes for your vagrant isntalltion.
 
-    vagrant box add https://cdn.rawgit.com/JoergFiedler/freebsd-box/master/metadata.json --provider={aws,virtualbox}
+    for provider in aws virtualbox; do \
+      vagrant box add \
+        https://cdn.rawgit.com/JoergFiedler/freebsd-box/master/metadata.json \
+        --provider virtualbox \
+    done
 
 Use `JoergFiedler/freebsd-box` as name for the box file for both providers.
 
