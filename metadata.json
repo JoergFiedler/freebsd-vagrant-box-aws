@@ -13,7 +13,7 @@
       "name": "aws",
       "url": "https://rawgit.com/JoergFiedler/freebsd-box/master/freebsd10-aws.box",
       "checksum_type": "sha256",
-      "checksum": "9bf1642f5361930ef970ca35529e73286262f1045da7b67f44654ff68f1b949e"
+      "checksum": "5c5ff54810467e621209afe4cff8bfe8905ccd547e92bb43c13fbc9d631296d3"
     }]
   }]
 }
