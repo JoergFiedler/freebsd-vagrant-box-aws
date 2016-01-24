@@ -1,7 +1,6 @@
-## FreeBSD 10 AWS Box
+## FreeBSD 10 Vagrant Box
 
-The Vagrant box file can be used to create FreeBSD
-machines for `virtualbox` and `aws` providers.
+The Vagrant box file can be used to create FreeBSD machines for `virtualbox` and `aws` providers.
 
 More informaiton about the box file for the `virtualbox`
 provider can be found [here](https://github.com/JoergFiedler/freebsd-vagrant-base-box).
