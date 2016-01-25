@@ -2,7 +2,7 @@
   "name": "JoergFiedler/freebsd-box",
   "description": "This box contains FreeBSD for VB and AWS providers.",
   "versions": [{
-    "version": "0.4.0",
+    "version": "0.4.1",
     "providers": [{
       "name": "virtualbox",
       "url": "http://vastland.moumantai.de/FreeBSD/vagrant-box/FreeBSD-10.2-vagrant-abe25b9.box",
