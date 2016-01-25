@@ -5,7 +5,7 @@
     "version": "0.4.0",
     "providers": [{
       "name": "virtualbox",
-      "url": "https://s3-eu-west-1.amazonaws.com/vastland.moumantai.de/public/FreeBSD/vagrant-box/FreeBSD-10.2-vagrant-abe25b9.box",
+      "url": "http://vastland.moumantai.de/FreeBSD/vagrant-box/FreeBSD-10.2-vagrant-abe25b9.box",
       "checksum_type": "sha256",
       "checksum": "abe25b9b2b934053a624632323f7c62c1fe6dce0fd7453fb484cc2aba17f4056"
     },
