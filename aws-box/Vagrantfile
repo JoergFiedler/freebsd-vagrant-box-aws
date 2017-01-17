@@ -1,14 +1,14 @@
 Vagrant.configure("2") do |config|
   config.vm.provider :aws do |aws, _|
-    aws.region_config "us-east-1", :ami => "ami-f709a29c"
-    aws.region_config "us-west-1", :ami => "ami-bbc43aff"
-    aws.region_config "eu-west-1", :ami => "ami-5c4c112b"
-    aws.region_config "ap-southeast-1", :ami => "ami-fe6c62ac"
-    aws.region_config "ap-northeast-1", :ami => "ami-94209b94"
-    aws.region_config "ap-northeast-1", :ami => "ami-94209b94"
-    aws.region_config "us-west-2", :ami => "ami-2b88821b"
-    aws.region_config "sa-east-1", :ami => "ami-49ef6754"
-    aws.region_config "ap-southeast-2", :ami => "ami-1bc28121"
-    aws.region_config "eu-central-1", :ami => "ami-2235323f"
+    aws.region_config "us-east-1", :ami => "ami-2d6d6347"
+    aws.region_config "us-west-1", :ami => "ami-1b275a7b"
+    aws.region_config "us-west-2", :ami => "ami-dcd239bc"
+    aws.region_config "sa-east-1", :ami => "ami-e95dd185"
+    aws.region_config "eu-west-1", :ami => "ami-a2f87fd1"
+    aws.region_config "eu-central-1", :ami => "ami-3427c15b"
+    aws.region_config "ap-southeast-1", :ami => "ami-840511ea"
+    aws.region_config "ap-northeast-1", :ami => "ami-02c40d6c"
+    aws.region_config "ap-northeast-1", :ami => "ami-ddb47ebe"
+    aws.region_config "ap-southeast-2", :ami => "ami-bf0122dc"
   end
 end
