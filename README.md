@@ -2,7 +2,7 @@
 
 The Vagrant box file can be used to create FreeBSD machines for `virtualbox` and `aws` providers.
 
-More informaiton about the box file for the `virtualbox`
+More information about the box file for the `virtualbox`
 provider can be found [here](https://github.com/JoergFiedler/freebsd-vagrant-base-box).
 
 The box file the `aws` provider just contains definitions
@@ -16,11 +16,11 @@ for FreeNSD AMI's for all aws regions. See [FreeBSD on EC2](http://www.daemonolo
 ### Usage
 
 To use the this box definition just add it to the list of
-available boxes for your vagrant isntalltion.
+available boxes for your vagrant installation.
 
     for provider in aws virtualbox; do \
       vagrant box add \
-        https://rawgit.com/JoergFiedler/freebsd-box/master/metadata.json \
+        https://rawgit.com/JoergFiedler/freebsd-box/freebsd-10.3/metadata.json \
         --provider ${provider}; \
     done
 
