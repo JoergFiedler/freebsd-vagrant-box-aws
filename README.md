@@ -1,4 +1,4 @@
-## FreeBSD 10 Vagrant Box
+## FreeBSD 11 Vagrant Box
 
 The Vagrant box file can be used to create FreeBSD machines for `virtualbox` and `aws` providers.
 
@@ -20,13 +20,13 @@ available boxes for your vagrant installation.
 
     for provider in aws virtualbox; do \
       vagrant box add \
-        https://rawgit.com/JoergFiedler/freebsd-box/freebsd-10.3/metadata.json \
+        https://rawgit.com/JoergFiedler/freebsd-box/freebsd-11.0/metadata.json \
         --provider ${provider}; \
     done
 
 Use `JoergFiedler/freebsd-box` as name for the box file for both providers.
 
-    config.vm.box = 'JoergFiedler/freebsd-box'
+    config.vm.box = 'JoergFiedler/freebsd-11.0'
 
 ### Links
 

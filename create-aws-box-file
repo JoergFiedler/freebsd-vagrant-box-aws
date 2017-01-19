@@ -1,1 +1,1 @@
-tar -cf freebsd10-aws.box -C aws-box/ metadata.json Vagrantfile
+tar -cf freebsd11-aws.box -C aws-box/ metadata.json Vagrantfile
