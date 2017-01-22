@@ -24,7 +24,7 @@ available boxes for your vagrant installation.
         --provider ${provider}; \
     done
 
-Use `JoergFiedler/freebsd-box` as name for the box file for both providers.
+Use `JoergFiedler/freebsd-11.0` as name for the box file for both providers.
 
     config.vm.box = 'JoergFiedler/freebsd-11.0'
 
