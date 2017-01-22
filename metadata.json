@@ -2,12 +2,12 @@
   "name": "JoergFiedler/freebsd-11.0",
   "description": "Box definitions for FreeBSD 11.0 Virtual Box and AWS providers.",
   "versions": [{
-    "version": "0.6.1",
+    "version": "0.6.2",
     "providers": [{
       "name": "virtualbox",
-      "url": "http://vastland.moumantai.de/FreeBSD/vagrant-box/FreeBSD-11.0-vagrant-9fd5d94.box",
+      "url": "http://vastland.moumantai.de/FreeBSD/vagrant-box/FreeBSD-11.0-vagrant-fe6134d.box",
       "checksum_type": "sha256",
-      "checksum": "9fd5d94df72b677ca0bee795e12cc7f75f02ad6e10b370fe27ba8b8c808964df"
+      "checksum": "fe6134d5cd5c1d5bce705ded1333445236b135c20929c8dde9592e73d0ea001d"
     },
     {
       "name": "aws",
