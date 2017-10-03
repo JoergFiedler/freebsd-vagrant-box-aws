@@ -20,13 +20,13 @@ available boxes for your vagrant installation.
 
     for provider in aws virtualbox; do \
       vagrant box add \
-        https://rawgit.com/JoergFiedler/freebsd-box/freebsd-11.0/metadata.json \
+        https://raw.githubusercontent.com/JoergFiedler/freebsd-vagrant-box/freebsd-11.1/metadata.json \
         --provider ${provider}; \
     done
 
-Use `JoergFiedler/freebsd-11.0` as name for the box file for both providers.
+Use `JoergFiedler/freebsd-11.1` as name for the box file for both providers.
 
-    config.vm.box = 'JoergFiedler/freebsd-11.0'
+    config.vm.box = 'JoergFiedler/freebsd-11.1'
 
 ### Links
 

@@ -1,19 +1,19 @@
 {
-  "name": "JoergFiedler/freebsd-11.0",
-  "description": "Box definitions for FreeBSD 11.0 Virtual Box and AWS providers.",
+  "name": "JoergFiedler/freebsd-11.1",
+  "description": "Box definitions for FreeBSD 11.1 Virtual Box and AWS providers.",
   "versions": [{
-    "version": "0.6.2",
+    "version": "0.11.1",
     "providers": [{
       "name": "virtualbox",
-      "url": "http://vastland.moumantai.de/FreeBSD/vagrant-box/FreeBSD-11.0-vagrant-fe6134d.box",
+      "url": "http://vastland.moumantai.de/FreeBSD/vagrant-box/FreeBSD-11.1-vagrant-27f8db1.box",
       "checksum_type": "sha256",
-      "checksum": "fe6134d5cd5c1d5bce705ded1333445236b135c20929c8dde9592e73d0ea001d"
+      "checksum": "27f8db1698cf3a53cfa94629e0d4ae58ce237137443564991feb285e0745e0bf"
     },
     {
       "name": "aws",
-      "url": "https://github.com/JoergFiedler/freebsd-vagrant-box/raw/freebsd-11.0/freebsd11-aws.box",
+      "url": "https://raw.githubusercontent.com/JoergFiedler/freebsd-vagrant-box/freebsd-11.1/freebsd11-aws.box",
       "checksum_type": "sha256",
-      "checksum": "e7ddb50cc8929f34bed1498558fb5727ddab9e5a7a3e9ac0d306bb1cbb71d9b3"
+      "checksum": "5795138fd1a6db1a0693dd7dee870e0a32aeb986fcac68aa7134ee1c4dccd515"
     }]
   }]
 }
