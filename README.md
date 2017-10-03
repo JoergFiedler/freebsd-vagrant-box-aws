@@ -16,7 +16,8 @@ for FreeNSD AMI's for all aws regions. See [FreeBSD on EC2](http://www.daemonolo
 ### Usage
 
 To use the this box definition just add it to the list of
-available boxes for your vagrant installation.
+available boxes for your vagrant installation. It will download
+the box files from Vagrant Cloud.
 
     for provider in aws virtualbox; do \
       vagrant box add \
