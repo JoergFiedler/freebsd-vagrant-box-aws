@@ -23,16 +23,16 @@ the box files from Vagrant Cloud.
 
     for provider in aws virtualbox; do \
       vagrant box add \
-        JoergFiedler/freebsd-11.3 \
+        JoergFiedler/freebsd-12.1 \
         --provider ${provider}; \
     done
 
-Use `JoergFiedler/freebsd-11.3` as name for the box file for both providers.
+Use `JoergFiedler/freebsd-12.1` as name for the box file for both providers.
 
-    config.vm.box = 'JoergFiedler/freebsd-11.3'
-    config.vm.box_version = "0.11.3"
+    config.vm.box = 'JoergFiedler/freebsd-12'
+    config.vm.box_version = "0.1.0"
 
 ### Links
 
-1. [FreeBSD on EC2](https://www.freebsd.org/releases/11.3R/announce.html)
+1. [FreeBSD on EC2](https://www.freebsd.org/releases/12.1R/announce.html)
 1. [Vagrant](https://www.vagrantup.com)
