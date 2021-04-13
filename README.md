@@ -1,12 +1,9 @@
-## FreeBSD 11 Vagrant Box
+## FreeBSD Vagrant Box for AWS provider
 
 The Vagrant box file can be used to create FreeBSD machines for `virtualbox` and
 `aws` providers.
 
-More information about the box file for the `virtualbox` provider can be found
-[here](https://github.com/JoergFiedler/freebsd-vagrant-base-box).
-
-The box file the `aws` provider just contains definitions for FreeNSD AMI's for
+The box file the `aws` provider just contains definitions for FreeBSD AMI's for
 all aws regions. See [FreeBSD on
 EC2](http://www.daemonology.net/freebsd-on-ec2/) page for further information.
 
@@ -27,7 +24,7 @@ the box files from Vagrant Cloud.
         --provider ${provider}; \
     done
 
-Use `JoergFiedler/freebsd-12.1` as name for the box file for both providers.
+Use `JoergFiedler/freebsd-12` as name for the box file for both providers.
 
     config.vm.box = 'JoergFiedler/freebsd-12'
     config.vm.box_version = "0.1.0"
